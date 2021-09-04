@@ -7,7 +7,7 @@
 не сохраняет никаких данных (состояние) между двумя парами "запрос-ответ". Несмотря на то, что HTTP основан на TCP/IP, 
 он также может использовать любой другой протокол *транспортного уровня* с гарантированной доставкой.
 
-![img.png](img.png)
+![img.png](static/img.png)
 
 Каждое HTTP-сообщение, независимо от того, следует оно от клиента к серверу(request) или от сервера к клиенту(response),
 состоит из трёх основных частей: <br/>
@@ -25,7 +25,7 @@
 • адрес (URL) <br/>
 • версия протокола (HTTP/1.1, HTTP/2)
 
-![img_1.png](img_1.png)
+![img_1.png](static/img_1.png)
 
 **HTTP-метод - это название операции, которая должна быть выполнена HTTP-запросом (request):** <br/>
 • GET (когда мы хотим только получить информацию) <br/>
@@ -45,7 +45,7 @@
 • адрес ресурса (по указанному доменному имени или IP-адресу) <br/>
 • список параметров
 
-![img_2.png](img_2.png)
+![img_2.png](static/img_2.png)
 
 **b) Response** <br/>
 • версия протокола (HTTP/1.1, HTTP/2) <br/>
@@ -57,7 +57,7 @@
 
 *Всего существует 5 классов состояния: 1xx, 2xx, 3xx, 4xx, 5xx*
 
-![img_3.png](img_3.png)
+![img_3.png](static/img_3.png)
 
 **1xx - информация о состоянии процесса передачи** <br/>
 *Informational Status code* <br/>
@@ -96,7 +96,7 @@ header_value"*. <br/>
 
 **Другими словами, является метаинформацией HTTP-сообщения (названия заголовков не чувствительны к регистру).**
 
-![img_4.png](img_4.png)
+![img_4.png](static/img_4.png)
 
 ## Тело сообщения
 
@@ -105,17 +105,17 @@ header_value"*. <br/>
 
 Сами данные могут быть совершенно любые, например:
 
-![img_5.png](img_5.png)
+![img_5.png](static/img_5.png)
 
 ## Примеры:
 
-![img_6.png](img_6.png)
+![img_6.png](static/img_6.png)
 
 ## Моменты Request:
 
-![img_7.png](img_7.png)
+![img_7.png](static/img_7.png)
 
-![img_8.png](img_8.png)
+![img_8.png](static/img_8.png)
 
 ## Метод GET
 
@@ -127,7 +127,7 @@ header_value"*. <br/>
 
 ### Параметры GET-запроса
 
-![img_9.png](img_9.png)
+![img_9.png](static/img_9.png)
 
 Параметры нужны для передачи информации от клиента к серверу во время запроса.
 
@@ -145,7 +145,7 @@ header_value"*. <br/>
 
 ### Параметры POST-запроса
 
-![img_10.png](img_10.png)
+![img_10.png](static/img_10.png)
 
 • Все параметры закодированы в теле запроса <br/>
 • Content-Type может быть разный (JSON, XML, и т.д.) <br/>
@@ -153,10 +153,10 @@ header_value"*. <br/>
 
 ## Сравнение GET и POST:
 
-![img_11.png](img_11.png)
+![img_11.png](static/img_11.png)
 
 ## Моменты Response
 
-![img_12.png](img_12.png)
+![img_12.png](static/img_12.png)
 
-![img_13.png](img_13.png)
+![img_13.png](static/img_13.png)
